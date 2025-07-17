@@ -1,0 +1,12 @@
+# 🔐 Dictionary Attack Detection
+
+Detects repeated login attempts using different passwords — a common sign of dictionary or credential stuffing attacks.
+
+---
+
+## 🔍 SPL Query
+
+```spl
+index=* host=clientkali "authentication failure"
+| stats count by user, src, _time
+| where count > 10
