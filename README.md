@@ -25,9 +25,6 @@ This project demonstrates how Splunk Enterprise can be used for centralized log 
 - Created real-time alerts for threat patterns
 - Designed dashboards and scheduled reports
 
-## 📸 Screenshots
-
-> Upload screenshots in a folder named `/dashboards/` (we’ll do this next)
 
 ## 📂 Repo Structure (Planned)
 
@@ -35,9 +32,9 @@ This project demonstrates how Splunk Enterprise can be used for centralized log 
 |----------------|----------------------------------------|
 | `spl-queries/` | Custom SPL queries                     |
 | `alerts/`      | Real-time alert definitions            |
-| `dashboards/`  | Screenshots of dashboards              |
-| `sample-logs/` | Sample (anonymized) log files (optional) |
-| `reports/`     | Automated reports if available         |
+| `dashboard/`  | Screenshots of dashboards              |
+| `sample-logs/` | Sample log files |
+| `reports/`     | Automated reports         |
 
 ## 📧 Contact
 
